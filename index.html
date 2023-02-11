@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shop</title>
+    <title>Furni.</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
@@ -65,32 +67,41 @@
             <div class="products_box">
               <ul class="products_list">
                 <li class="products_item">
+                  <div class="products_item_img">
                   <img
                     src="img/product-1.png"
                     alt="Nordic"
                     class="products_photo"
-                  />
+                  /></div>
+                  <div class="products_item_content">
                   <h3 class="poducts_title">Nordic CHAIR</h3>
                   <p class="products_text">$50.00</p>
+                </div>
                 </li>
                 <li class="products_item">
+                  <div class="products_item_img">
                   <img
                     src="img/product-2.png"
                     alt="Kruzo"
                     class="products_photo"
-                    style="height: 256px"
-                  />
+                    /></div>
+                    <div class="products_item_content">
                   <h3 class="poducts_title">Kruzo Aero Chair</h3>
                   <p class="products_text">$78.00</p>
+                </div>
                 </li>
+               
                 <li class="products_item">
+                  <div class="products_item_img">
                   <img
                     src="img/product-3.png"
                     alt="Ergonomic"
                     class="products_photo"
-                  />
+                  /></div>
+                  <div class="products_item_content">
                   <h3 class="poducts_title">Ergonomic Chair</h3>
                   <p class="products_text">$43.00</p>
+                </div>
                 </li>
               </ul>
             </div>
@@ -108,7 +119,7 @@
               </p>
               <ul class="about_us_list">
                 <li class="about_us_item">
-                  <img src="" alt="" class="about_us_img" />
+                 <div class="about_us_img_box"><img src="img/svg/Truck.svg" alt="" class="about_us_img" /></div> 
                   <h3 class="about_us_list_title">Fast & Free Shipping</h3>
                   <p class="about_us_list_text">
                     Donec mattis porta eros, aliquet finibus risus interdum at.
@@ -116,7 +127,7 @@
                   </p>
                 </li>
                 <li class="about_us_item">
-                  <img src="" alt="" class="about_us_img" />
+                  <div class="about_us_img_box"><img src="img/svg/Shop_bag.svg" alt="" class="about_us_img" /></div> 
                   <h3 class="about_us_list_title">Easy to Shop</h3>
                   <p class="about_us_list_text">
                     Donec mattis porta eros, aliquet finibus risus interdum at.
@@ -124,7 +135,7 @@
                   </p>
                 </li>
                 <li class="about_us_item">
-                  <img src="" alt="" class="about_us_img" />
+                  <div class="about_us_img_box">  <img src="img/svg/Support.svg" alt="" class="about_us_img" /></div> 
                   <h3 class="about_us_list_title">24/7 Support</h3>
                   <p class="about_us_list_text">
                     Donec mattis porta eros, aliquet finibus risus interdum at.
@@ -132,7 +143,7 @@
                   </p>
                 </li>
                 <li class="about_us_item">
-                  <img src="" alt="" class="about_us_img" />
+                  <div class="about_us_img_box"><img src="img/svg/Return.svg" alt="" class="about_us_img" /></div> 
                   <h3 class="about_us_list_title">Hassle Free Returns</h3>
                   <p class="about_us_list_text">
                     Donec mattis porta eros, aliquet finibus risus interdum at.
@@ -237,6 +248,42 @@
           </div>
         </div>
       </section>
+<section class="reviews">
+<div class="conteiner">
+  <h2 class="reviews_title">Testimonials</h2>
+  <div class="owl-carousel">
+    <div class = "item_slide"> <p class="slide_text">‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’</p>
+    <img src="img/person.png" alt="" class="slider_face">
+    <h3 class="slider_title">Michelle Anna </h3>
+    <p class="slider_subtitle">CEO, Co-Founder, XYZ Inc.</p> </div>
+    <div class = "item_slide"> <p class="slide_text">‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’</p>
+    <img src="img/person.png" alt="" class="slider_face">
+    <h3 class="slider_title">Michelle Anna </h3>
+    <p class="slider_subtitle">CEO, Co-Founder, XYZ Inc.</p> </div>
+    <div class = "item_slide"> <p class="slide_text">‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’</p>
+    <img src="img/person.png" alt="" class="slider_face">
+    <h3 class="slider_title">Michelle Anna </h3>
+    <p class="slider_subtitle">CEO, Co-Founder, XYZ Inc.</p> </div>
+    <div class = "item_slide"> <p class="slide_text">‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’</p>
+    <img src="img/person.png" alt="" class="slider_face">
+    <h3 class="slider_title">Michelle Anna </h3>
+    <p class="slider_subtitle">CEO, Co-Founder, XYZ Inc.</p> </div>
+    <div class = "item_slide"> <p class="slide_text">‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’</p>
+    <img src="img/person.png" alt="" class="slider_face">
+    <h3 class="slider_title">Michelle Anna </h3>
+    <p class="slider_subtitle">CEO, Co-Founder, XYZ Inc.</p> </div>
+    <div class = "item_slide"> <p class="slide_text">‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’</p>
+    <img src="img/person.png" alt="" class="slider_face">
+    <h3 class="slider_title">Michelle Anna </h3>
+    <p class="slider_subtitle">CEO, Co-Founder, XYZ Inc.</p> </div>
+    <div class = "item_slide"> <p class="slide_text">‘’Donec nibh magna, interdum quis massa sed, rhoncus laoreet quam. Mauris accumsan felis fermentum euismod egestas. Mauris ante augue, cursus sit amet arcu a, maximus suscipit nibh. Integer vel nibh tellus. Pellentesque in risus non dui venenatis sollicitudin sed vitae diam. Fusce tincidunt nisl mi, at molestie odio accumsan non. Pellentesque ma’’</p>
+    <img src="img/person.png" alt="" class="slider_face">
+    <h3 class="slider_title">Michelle Anna </h3>
+    <p class="slider_subtitle">CEO, Co-Founder, XYZ Inc.</p> </div>
+  </div>
+</div>
+</section>
+
       <section class="blog">
         <div class="conteiner">
           <div class="blog_wrapper">
@@ -286,7 +333,7 @@
                   class="input_email"
                   placeholder="Enter your e-mail"
                 />
-                <button class="subscribe_btn"></button>
+                <button class="subscribe_btn"><img src="img/svg/point.svg" alt=""></button>
               </div>
             </div>
 
@@ -311,66 +358,69 @@
           <div class="footer_nav_wrapper">
             <div class="footer_nav">
               <ul class="footer_list">
-                <li class="footer_item">About us
+                <li class="footer_item"><a href="" class="footer_link_item">About us</a> 
                     </li>
-                <li class="footer_item">Services
+                <li class="footer_item"><a href="" class="footer_link_item">Services</a> 
                    </li>
-                <li class="footer_item"> Blog
+                <li class="footer_item"><a href="" class="footer_link_item">Blog</a>  
                     </li>
-                <li class="footer_item">Contact us</li>
+                <li class="footer_item"><a href="" class="footer_link_item">Contact us</a> </li>
               </ul>
             </div>
             <div class="footer_nav">
               <ul class="footer_list">
-                <li class="footer_item">Support
+                <li class="footer_item"><a href="" class="footer_link_item">Support</a> 
                     
                     </li>
-                <li class="footer_item">Knowledge base
+                <li class="footer_item"><a href="" class="footer_link_item">Knowledge base</a> 
                     </li>
-                <li class="footer_item">Live chat</li>
+                <li class="footer_item"><a href="" class="footer_link_item">Live chat</a> </li>
               </ul>
             </div>
             <div class="footer_nav">
               <ul class="footer_list">
-                <li class="footer_item">Jobs
+                <li class="footer_item"><a href="" class="footer_link_item">Jobs</a> 
                     
                     </li>
-                <li class="footer_item">Our team
+                <li class="footer_item"><a href="" class="footer_link_item">Our team</a> 
                     </li>
-                <li class="footer_item">Leadership
+                <li class="footer_item"><a href="" class="footer_link_item">Leadership</a> 
                     </li>
-                <li class="footer_item">Privacy Policy</li>
+                <li class="footer_item"><a href="" class="footer_link_item">Privacy Policy</a> </li>
               </ul>
             </div>
             <div class="footer_nav">
               <ul class="footer_list">
-                <li class="footer_item">Nordic Chair
+                <li class="footer_item"><a href="" class="footer_link_item">Nordic Chair</a> 
                     </li>
-                <li class="footer_item"> Kruzo Aero
+                <li class="footer_item"><a href="" class="footer_link_item">Kruzo Aero</a>  
                    </li>
-                <li class="footer_item"> Ergonomic</li>
+                <li class="footer_item"><a href="" class="footer_link_item">Ergonomic</a>  </li>
               </ul>
             </div>
           </div>
          
         </div>
         <div class="soc_item">
+          <div class="box_link">
             <a href="" class="soc_link"
               ><img src="img/svg/facebook-f 1.svg" alt="facebook" class="soc_img"
-            /></a>
-            <a href="" class="soc_link"
-              ><img src="img/svg/instagram 1.svg" alt="Instagram" class="soc_img"
-            /></a>
-            <a href="" class="soc_link"
+            /></a></div>
+            <div class="box_link"> <a href="" class="soc_link "
+              ><img src="img/svg/instagram 1.svg" alt="Instagram" class="soc_img instagram"
+            /></a></div>
+            <div class="box_link"> <a href="" class="soc_link"
               ><img src="img/svg/twitter 1.svg" alt="Twitter" class="soc_img"
-            /></a>
-            <a href="" class="soc_link"
+            /></a></div>
+            <div class="box_link">  <a href="" class="soc_link"
               ><img src="img/svg/linkedin-in 1.svg" alt="linkedin" class="soc_img"
-            /></a>
+            /></a></div>
           </div>
           <div class="footer_content_bottom">
         <div class="footer_content">
-          Copyright 2022 degraft87@gmail.com. All Rights Reserved.
+            <p class="footer_cpyright">Copyright 2022 </p>
+            <a rel="stylesheet" href="degraft87@gmail.com" type="e-mail">degraft87@gmail.com</a>  
+            <p class="footer_cpyright">All Rights Reserved.</p>
         </div>
         <div class="footer_links">
           <a href="" class="link_term">Terms & Conditions</a>
@@ -379,5 +429,13 @@
     </div>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+<script src="main.js"> </script>
   </body>
 </html>
+
+
+
+
