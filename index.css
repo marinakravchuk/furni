@@ -24,10 +24,13 @@ header{
     padding-top: 24px;
 }
 
-.logo{font-weight: 500;
+.logo{
+    font-weight: 500;
     font-size: 32px;
     line-height: 39px;
-    color: #FFFFFF}
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
     .logo>span{
         color: #FFFFFF;
@@ -229,6 +232,14 @@ line-height: 28px;
 text-align: center;
 color: #FFFFFF;
  }
+
+ .design_btn:hover,
+ .design_btn:focus{
+    background-color: #F9BF29;
+    color: #000;
+ }
+
+
  .products{
     padding-top: 165px;
     padding-bottom: 110px;
@@ -630,6 +641,10 @@ border: 1px solid #C4C4C4;
 border-radius: 10px;
 }
 
+.subscribe_btn:focus,
+.subscribe_btn:hover{
+    background-color: #F9BF29;
+}
 
 
 .subscribe_img_box{
