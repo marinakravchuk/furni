@@ -60,7 +60,13 @@
  .design_title{
     font-size: 30px;
  }
-
+ .about_us,
+ .products,
+ .design,
+ .products_small{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
  
 }
 
@@ -86,6 +92,25 @@
     .about_us_list{
         justify-content: center;
     }
+    .products_item:last-child{
+        display: none;
+    }
+
+    .footer_navigation{
+        display: none;
+    }
+    .footer_links{
+        display: none;
+    }
+
+    footer > .conteiner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0 auto;
+       }
+       
 }
 
 @media(min-width: 651px){
@@ -111,9 +136,7 @@
       }
       
       /* Анимация */
-      .hamburger-menu svg rect:nth-child(1) {
+    /*   .hamburger-menu svg rect:nth-child(1) {
         animation: hamburgerTop 0.3s ease-in-out forwards;
-      }
-      
-   
+      } */
 }
