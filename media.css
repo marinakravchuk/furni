@@ -2,13 +2,14 @@
     .products_text_content{
         text-align: center;
         margin: 0 auto;
+        padding-bottom: 40px;
     }
     .products_box{
     padding-bottom: 45px;
     }
     .products_wrapper{
         display: flex;
-       flex-wrap: wrap-reverse;
+       flex-wrap: wrap;
        justify-content: center;
        }
 
@@ -104,12 +105,15 @@
         background-size: cover;
         
     }
-    
+    .chair_list{
+        flex-wrap: wrap;
+        justify-content: center
+    }
   
 
     
 }
-@media(max-width:750px){
+@media(max-width:769px){
     .about_us_list{
         justify-content: center;
     }
@@ -182,10 +186,7 @@
       input{
         padding-right: 50px;
       }
-      /* Анимация */
-    /*   .hamburger-menu svg rect:nth-child(1) {
-        animation: hamburgerTop 0.3s ease-in-out forwards;
-      } */
+  
 }
 
 @media(max-width: 530px){
@@ -205,4 +206,12 @@
     .subscribe_btn{
        width: 50%;
     }
+}
+
+@media(max-width: 480px){
+    .subscribe_title::after {
+        left: 50px;
+    }
+
+   
 }
