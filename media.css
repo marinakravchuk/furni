@@ -19,6 +19,11 @@
      .d_b_img3{
         display: none;
      }
+     img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+      }
 }
 @media(min-width: 750px){
     .about_us_text{
@@ -68,6 +73,12 @@
     padding-bottom: 50px;
 }
  
+.about_us_text{
+    max-width: 100%;
+}
+
+
+
 }
 
 
@@ -85,6 +96,16 @@
     .hero_btn{
         justify-content: center;
     }
+   
+    .hero_content {
+        background-image: url('img/couch_retina.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    
+  
 
     
 }
@@ -134,9 +155,54 @@
       .menu_list{
         display: none;
       }
+      .blog_title{
+        font-size: 20px;
+      }
+      .blog_link{
+        font-size: 16px;
+      }
+      .subscribe_img_box{
+        display: none;
+      }
       
+      .blog_item_title{
+        font-size: 15px;
+      }
+      .blog_item_text{
+        font-size: 10px;
+      }
+      .footer_content{
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .subscribe_content{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      input{
+        padding-right: 50px;
+      }
       /* Анимация */
     /*   .hamburger-menu svg rect:nth-child(1) {
         animation: hamburgerTop 0.3s ease-in-out forwards;
       } */
+}
+
+@media(max-width: 530px){
+    .subscribe_box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .subscribe_content{
+        justify-content: center;
+    }
+    .subscribe_title::after{
+        left: 100px;
+
+    }
+    .subscribe_btn{
+       width: 50%;
+    }
 }
