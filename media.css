@@ -23,7 +23,7 @@
      img {
         max-width: 100%;
         height: auto;
-        width: auto\9; /* ie8 */
+        width: auto;
       }
 }
 @media(min-width: 750px){
@@ -37,7 +37,7 @@
     .about_us_content_img{
         max-width: 400px;
     } 
-    .
+   
 }
 
 @media(max-width: 991px){
@@ -78,6 +78,10 @@
     max-width: 100%;
 }
 
+.about_us_item{
+    max-width:40%;
+    margin: 0;
+}
 
 
 }
@@ -85,9 +89,20 @@
 
 
 @media(max-width: 800px){
-    .hero_photo{
-        display: none;
+    .hero_wrapper{
+       flex-direction: column;
     }
+
+
+.hero_photo{
+padding-top: 0px;
+}
+.hero_content{
+    padding-bottom: 0px;
+}
+.hero_dottes{
+    display: none;
+}
     .hero_content{
         max-width: 100%;
         margin: 0 auto;
@@ -98,21 +113,33 @@
         justify-content: center;
     }
    
-    .hero_content {
-        background-image: url('img/couch_retina.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        
-    }
+  
     .chair_list{
         flex-wrap: wrap;
         justify-content: center
     }
-  
+
+    .design_wrapper{
+flex-direction: column;
+    }
+.design_box_img{
+    margin: 0 auto;
+    max-width: 720px;
+    width:0;
+}
+
+
+
+    .design_content{
+margin: 0 auto;
+    }
 
     
 }
+
+
+
+
 @media(max-width:769px){
     .about_us_list{
         justify-content: center;
@@ -137,6 +164,15 @@
        }
        
 }
+
+@media(min-width: 750px){
+    .design_box_img {
+        position: relative;
+        width: 720px;
+      }
+
+}
+
 
 @media(min-width: 651px){
     .hamburger-menu{
@@ -206,6 +242,9 @@
     .subscribe_btn{
        width: 50%;
     }
+    .hero_sofa{
+        min-width:200px
+    }
 }
 
 @media(max-width: 480px){
@@ -213,5 +252,14 @@
         left: 50px;
     }
 
-   
+    .about_us_list{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about_us_item{
+        max-width: 50%;
+    margin: 0 auto;
+    }
+
 }

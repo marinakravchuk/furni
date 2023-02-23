@@ -153,8 +153,9 @@ header {
 
 .design_box_img {
   position: relative;
-  width: 720px;
+ 
 }
+
 .d_b_svg {
   position: absolute;
   top: -55px;
