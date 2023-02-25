@@ -20,17 +20,29 @@
   <body>
     <header>
       <div class="conteiner">
-        <nav class="header_menu">
+     <div class="header_nav">
           <p class="logo">Furni <span>.</span></p>
-          <div class="hamburger-menu">
-            <svg viewBox="0 0 100 100" width="40" height="40">
+          <div class="burger_btn">
+            <svg  viewBox="0 0 100 100" width="40" height="40">
               <rect y="20" width="100" height="10" rx="5" ry="5" fill="#ffffff" fill-opacity="0.5"/>
               <rect y="45" width="100" height="10" rx="5" ry="5" fill="#ffffff" fill-opacity="0.5"/>
               <rect y="70" width="100" height="10" rx="5" ry="5" fill="#ffffff" fill-opacity="0.5"/>
             </svg>
-            
           </div>
-          <ul class="menu_list">
+          <div class="hamburger-menu-box hidden_burger">
+             <ul class="menu_mobail">
+              <li class="menu_item"><a href="" class="menu_link">Home</a></li>
+              <li class="menu_item"><a href="" class="menu_link">About us</a></li>
+              <li class="menu_item"><a href="" class="menu_link">Services</a></li>
+              <li class="menu_item"><a href="" class="menu_link">Blog</a></li>
+              <li class="menu_item">
+                <a href="" class="menu_link">Contac us</a>
+              </li>
+            </ul>
+          </div>
+         
+          <nav class="header_menu">
+          <ul class="menu_list ">
             <li class="menu_item"><a href="" class="menu_link">Home</a></li>
             <li class="menu_item"><a href="" class="menu_link">About us</a></li>
             <li class="menu_item"><a href="" class="menu_link">Services</a></li>
@@ -40,11 +52,22 @@
             </li>
           </ul>
         </nav>
+    </div>
+
         <div class="hero_wrapper">
           <div class="hero_content">
             <h1 class="hero_title">Modern Interior Design Studio</h1>
-            <button class="hero_btn">Shop Now</button>
+            <button data-modal-button class="hero_btn">Shop Now</button>
             <button class="hero_btn">Explore</button>
+          </div>
+          <div class="fade_block hidden" data-modal>
+<div class="modal_window">
+  <div class="card">
+    <h3 class="card_header">Modal window</h3>
+    <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+    <button data-modal-close class="modal_btn">X</button>
+  </div>
+</div> 
           </div>
           <div class="hero_photo">
             <img
@@ -58,9 +81,8 @@
           </div>
         </div>
       </div>
-      
     </header>
-    <main>
+        <main>
       <section class="products">
         <div class="conteiner">
           <div class="products_wrapper">
@@ -335,7 +357,10 @@
         <div class="conteiner">
           <div class="subscribe_wrapper">
             <div class="subscribe_box">
+              <div class="subscribe_box_text">
+              <img src="img/svg/Vector.png" alt="" class="subscribe_img_letter">
               <h2 class="subscribe_title">Subscribe to Newsletter</h2>
+            </div>
               <div class="subscribe_content">
                 <input
                   type="text"
@@ -417,7 +442,6 @@
               </ul>
             </div>
           </div>
-         
         </div>
         <div class="soc_item">
           <div class="box_link">
