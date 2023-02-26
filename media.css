@@ -237,6 +237,16 @@
     max-width: 300px;
     margin: 0 auto;
   }
+
+  .owl-nav button.owl-prev {
+    top: 30%;
+    left: 10px;
+  }
+
+  .owl-nav button.owl-next{
+    top: 30%;
+    right: 10px;
+  }  
 }
 
 @media (max-width: 530px) {
@@ -274,4 +284,12 @@
     max-width: 50%;
     margin: 0 auto;
   }
+  .owl-nav button.owl-prev {
+display: none;
+  }
+
+  .owl-nav button.owl-next{
+display:none;
+  }  
+
 }
