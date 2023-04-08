@@ -909,7 +909,6 @@ border-radius: 25%;
   animation-duration: 3s;
   animation-delay: 3s ;
   transition: all 0.5s ease-in-out;
-
 }
 
 @keyframes burger-animation{

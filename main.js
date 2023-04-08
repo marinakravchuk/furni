@@ -20,7 +20,7 @@ const openBurgerButton = document.querySelector(".burger_btn");
 const menuHhamburger = document.querySelector(".hidden_burger");
 
 
-openButton.addEventListener("click", ()=>{
+/* openButton.addEventListener("click", ()=>{
   modal.classList.remove("hidden")
 })
 
@@ -38,4 +38,4 @@ closeButton.addEventListener("click", ()=>{
 
 openBurgerButton.addEventListener("click", ()=>{
   menuHhamburger.classList.toggle("hidden_burger")
-})
+}) */
